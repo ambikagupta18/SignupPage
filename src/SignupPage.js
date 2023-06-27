@@ -29,16 +29,16 @@ const handleInputChange = (e) => {
 
 
 const handleClick=()=>{
-    alert("7")
+    // alert("7")
     if((name && email && mobilenumber) == ""){
-        alert("6")
+        // alert("6")
         console.log(name,email,mobilenumber,"098765")   
         return null
         
     }
     else 
     {
-        alert("0")
+        // alert("0")
         console.log(name,email,mobilenumber,"9876543")
         history.push("/succespage") 
         
